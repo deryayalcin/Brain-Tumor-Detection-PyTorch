@@ -5,7 +5,7 @@ This project focuses on identifying brain tumors from MRI scans using **PyTorch*
 ## Project Overview
 The goal of this project is to create a reliable binary classifier that distinguishes between 'Tumor' and 'Healthy' brain MRI scans. I chose **EfficientNet-B0** as the backbone architecture because it provides state-of-the-art accuracy with significantly fewer parameters compared to traditional models like ResNet, making it ideal for specialized medical imaging tasks.
 
-## ✨ Key Features
+## Key Features
 - **Framework:** Developed using PyTorch.
 - **Transfer Learning:** Fine-tuned a pre-trained EfficientNet-B0 model to leverage ImageNet features.
 - **Medical Metrics:** Implemented evaluation pipelines for **Confusion Matrix**, **F1-Score**, and **AUC-ROC** to ensure clinical relevance beyond simple accuracy.
